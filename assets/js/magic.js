@@ -41,10 +41,8 @@ $(document).ready(function () {
 
                 // log data to the console so we can see
                 console.log(data);
-
                 // here we will handle errors and validation messages
                 if (!data.success) {
-
                     // handle errors for name ---------------
                     if (data.errors.name) {
                         $('#name-group').addClass('has-error'); // add the error class to show red input

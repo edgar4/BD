@@ -105,14 +105,19 @@ ul.navbar-nav {
  
 }
 .navbar-header{
-    width:100px;
+    width:120px;
     margin-left:80.3333% !important;
+	position: fixed;
+	top: 100px;
 }
 
 /***** Top content *****/
 
 .inner-bg {
     padding: 40px 0 170px 0;
+}
+.top-content{
+	padding: 10% 0 0 0;
 }
 
 .top-content .text {
