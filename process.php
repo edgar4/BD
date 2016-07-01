@@ -38,7 +38,7 @@ if (!empty($errors)) {
 
         $fullname =strip_tags($dataForm->fullname);
         $email =strip_tags($dataForm->email);
-        $phone =strip_tags($dataForm->telephone);
+        $phone =strip_tags($dataForm->phone);
         $dob =strip_tags($dataForm->dob);
 
         $sector =strip_tags($dataForm->sector);

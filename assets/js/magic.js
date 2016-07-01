@@ -1,6 +1,8 @@
 // magic.js
 $(document).ready(function () {
 
+    $('.thank').hide();
+
     // process the form
     $('form').submit(function (event) {
 
@@ -20,11 +22,13 @@ $(document).ready(function () {
             'position': $('input[name=position]').val(),
             'size': $('input[name=size]').val(),
             'url': $('input[name=url]').val(),
+            'self': $('input[name=self]').val(),
 
-            'qualify': $('input[name=qualify]').val(),
-            'achievement': $('input[name=achievement]').val(),
+            'qualify': $('textarea[name=qualify]').val(),
+            'achievement': $('textarea[name=achievement]').val(),
             'capacity': $('input:radio[name=capacity]').val(),
             'specify': $('textarea[name=specify]').val(),
+
 
         };
 
@@ -118,11 +122,8 @@ $(document).ready(function () {
 
                 } else {
 
-                    // ALL GOOD! just show the success message!
-                    $('form').append('<div class="alert alert-success">' + data.message + '</div>');
-
-                    // usually after form submission, you'll want to redirect
-                    // window.location = '/thank-you'; // redirect a user to another page
+                    $('.forms').hide()
+                    $('.thank').show()
 
                 }
             })

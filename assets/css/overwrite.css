@@ -25,7 +25,9 @@
 .one{
   color:#fff;
   font-size:2.8em;
-  margin-bottom: 5%
+  margin-bottom: 5%;
+  font-weight:bold;
+
 }
 .input-icon {position: relative; display: inline-block;}
 .input-icon .fa {position: absolute; left: -30px; top: 0;}
@@ -33,4 +35,15 @@
 label{
   color:white;
   width:80%;
+}
+.thank{
+  margin: 10% auto;
+}
+ul.list-inline  li{
+    color:white;
+}
+ul.list-inline  li a{
+    font-size: 2em;
+    color:white;
+
 }
