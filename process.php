@@ -7,7 +7,7 @@ $data = array();        // array to pass back data
 // if any of these variables don't exist, add an error to our $errors array
 
 $data = (object)$_REQUEST;
-var_dump($data);
+
 
 if (empty($data->fullname))
     $errors['fullname'] = 'Name is required.';
