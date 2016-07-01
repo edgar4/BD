@@ -1,9 +1,8 @@
 jQuery(document).ready(function () {
-
-    /*
-     Fullscreen background
-     */
-
+    $('.spec').hide();
+    $('input:radio[name=capacity]').click(function(){
+        $('.spec').toggle();
+    });
     $(function () {
         $("#datepicker").datepicker();
     });

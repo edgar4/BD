@@ -146,14 +146,16 @@
                                         <label>Is the nominee engaged in any significant community activities in his
                                             personal capacity?</label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="capacity" value="yes" checked>yes
+                                            <input type="radio" name="capacity" value="yes">yes
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" name="capacity" value="no" checked>no
                                         </label>
-                                        <label class="radio-inline">
-                                            <input type="radio" name="capacity" value="no">no
-                                        </label><br/>
+                                       <br/>
+                                       <div class="spec">
+                                           <label>specify</label><br/>
+                                           <textarea  name="specify"> .</textarea>
+                                       </div>
 
-                                        <label>specify</label><br/>
-                                        <textarea name="specify"></textarea>
                                     </div>
                                     <button type="button" class="btn btn-previous pull-left">Previous</button>
                                     <button type="submit" class="btn  pull-right"> Submit</button>
