@@ -82,11 +82,13 @@
                                     </div>
                                     <div id="phone-group" class="form-group">
                                         <label>Telephone *</label>
-                                        <input name="telephone" type="text" class="form-control" required>
+                                        <input name="telephone" type="text" id="phone" class="form-control" required>
+                                        <span class="phoneError"></span>
                                     </div>
                                     <div id="email-group" class="form-group">
                                         <label>Email*</label>
-                                        <input id="confirm" name="email" type="text" class="form-control" required>
+                                        <input id="email" name="email" type="email" class="form-control"  required>
+                                        <span class="emailError"></span>
                                     </div>
 
                                     <div id="dob" class="form-group">
@@ -194,6 +196,7 @@
 <script src="assets/js/jquery.backstretch.min.js"></script>
 <script src="assets/js/retina-1.1.0.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.4.3/parsley.min.js"></script>
 <script src="assets/js/magic.js"></script>
 
 <script src="assets/js/scripts.js"></script>
