@@ -1,0 +1,35 @@
+.bg{
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size:cover;
+  padding: 10% 5% 10% 0
+}
+.btn-default {
+  background:none;
+  border-color: #c2c2c2;
+  color: #FFFFFF;
+  padding: 2% 10% 2% 10%
+
+}
+.btn-default:hover {
+  background-color:#ff6600;
+  border-color: #c2c2c2;
+  color: #FFFFFF;
+ 
+}
+.orange{
+  background-color:#ff6600;
+}
+.top40 img{
+   margin:50%;
+}
+.one{
+  color:#fff;
+  font-size:2.5em;
+  margin-bottom: 5%
+}
+.input-icon {position: relative; display: inline-block;}
+.input-icon .fa {position: absolute; left: -30px; top: 0;}
+
+label{
+  color:white;
+}
