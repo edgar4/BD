@@ -121,7 +121,9 @@ $(document).ready(function () {
 
 
                 } else {
-
+                      var name = $('#fullname').val();
+                    var tweet = 'https://twitter.com/intent/tweet?url=http://www.bd.edgar.co.ke&text='+ name +'+has+been+nominated+for+top+40+under+40+women+2016+@BD_Africa+Nominate+someone &hashtags=Top40Under40Ke'
+                    $("#twitter").attr("href", tweet)
                     $('.forms').hide()
                     $('.thank').show()
 

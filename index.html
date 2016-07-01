@@ -17,6 +17,16 @@
     <link rel="stylesheet" href="assets/css/overwrite.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
+    <meta property="og:site_name" content="Top 40 Under 40">
+    <meta property="og:url" content="http://www.bd.edgar.co.ke">
+    <meta property="og:type" content="website">
+    /* or this depending content type */
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Top 40 under 40 Women 2016>
+    <meta property="og:description" content="Nominate someone you know for  the 2016 #Top40Under40Ke">
+    <meta property="og:image" content="http://www.bd.edgar.co.ke">
+    <meta property="fb:app_id" content="145634995501895">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,7 +75,7 @@
                                 <div class="form-bottom">
                                     <div id="name-group" class="form-group">
                                         <label>Fullname*</label>
-                                        <input name="fullname" type="text" class="form-control" required/>
+                                        <input name="fullname" type="text"  id="fullname" class="form-control" required/>
                                     </div>
                                     <div id="phone-group" class="form-group">
                                         <label>Telephone *</label>
@@ -122,18 +132,15 @@
 
                                 <div class="form-bottom">
                                     <div id="qualify" class="form-group">
-                                        <label>What in your view qualifies the nominee as
-                                            a TOP 40 under 40 man personality in Kenya?</label>
+                                        <label>What in your view qualifies the nominee as a TOP 40 under 40 female personality in Kenya?</label>
                                         <textarea name="qualify"></textarea>
                                     </div>
                                     <div id="achievement" class="form-group">
-                                        <label>What is the nominee’s most outstanding achievement to date in his
-                                            selected field\position?</label>
+                                        <label>What is the nominee’s most outstanding achievement to date in her selected field\position?</label>
                                         <textarea name="achievement"></textarea>
                                     </div>
                                     <div id="capacity" class="form-group">
-                                        <label>Is the nominee engaged in any significant community activities in his
-                                            personal capacity?</label>
+                                        <label>Is the nominee engaged in any significant community activities in her personal capacity?</label>
                                         <label class="radio-inline">
                                             <input type="radio" name="capacity" value="yes">yes
                                             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -159,17 +166,21 @@
         </div>
     </div>
 
-    <div class="thank">
+    <div class="thanks">
         <h2 class="one">Thank you for the submission</h2>
         <ul class="list-inline">
             <li>
-                Share On
+                click to share
             </li>
             <li>
-                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/dialog/feed?
+  app_id=145634995501895
+  &amp;display=popup&amp;caption=An%20example%20caption
+  &amp;link=http://www.bd.edgar.co.ke
+  &amp;redirect_uri=http://www.bd.edgar.co.ke"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="" id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
