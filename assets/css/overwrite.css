@@ -1,63 +1,82 @@
-.bg{
-  background: url(../img/bg.jpg) no-repeat center center;
-  background-size:cover;
-  padding: 10% 5% 10% 0
+.bg {
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10% 5% 10% 0
 }
+
 .btn-default {
-  background:none;
-  border-color: #c2c2c2;
-  color: #FFFFFF;
-  padding: 2% 10% 2% 10%
+    background: none;
+    border-color: #c2c2c2;
+    color: #FFFFFF;
+    padding: 2% 10% 2% 10%
 
 }
+
 .btn-default:hover {
-  background-color:#ff6600;
-  border-color: #c2c2c2;
-  color: #FFFFFF;
- 
-}
-.orange{
-  background-color:#ff6600;
-}
-.top40 img{
-   margin:50%;
-}
-.one{
-  color:#fff;
-  font-size:2.8em;
-  margin-bottom: 5%;
-  font-weight:bold;
+    background-color: #ff6600;
+    border-color: #c2c2c2;
+    color: #FFFFFF;
 
 }
-.input-icon {position: relative; display: inline-block;}
-.input-icon .fa {position: absolute; left: -30px; top: 0;}
 
-label{
-  color:white;
-  width:80%;
+.orange {
+    background-color: #ff6600;
 }
-.thank{
-  margin: 10% auto;
+
+.top40 img {
+    margin: 50%;
 }
-ul.list-inline  li{
-    color:white;
+
+.one {
+    color: #fff;
+    font-size: 2.8em;
+    margin-bottom: 5%;
+    font-weight: bold;
+    margin-top: 10%;
+
 }
-ul.list-inline  li a{
+
+.input-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.input-icon .fa {
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+
+label {
+    color: white;
+    width: 80%;
+}
+
+.thank {
+    margin: 10% auto;
+}
+
+ul.list-inline li {
+    color: white;
+}
+
+ul.list-inline li a {
     font-size: 2em;
-    color:white;
+    color: white;
 
 }
 
 @media screen
-and (max-width:480px) {
-    .navbar-header{
-        width:120px;
-        margin-left:65.3333% !important;
+and (max-width: 480px) {
+    .navbar-header {
+        width: 120px;
+        margin-left: 65.3333% !important;
         position: fixed;
         top: 100px;
     }
-    .one{
-        font-size:1.8em;
+
+    .one {
+        font-size: 1.8em;
     }
 
 }
