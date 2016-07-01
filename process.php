@@ -1,11 +1,7 @@
 <?php
-
-$errors = array();    // array to hold validation errors
-$data = array();        // array to pass back data
-
-// validate the variables ======================================================
-// if any of these variables don't exist, add an error to our $errors array
-
+ require_once 'sendmail/smtp.php';
+$errors = array();
+$data = array();
 $dataForm = (object)$_REQUEST;
 
 
@@ -58,7 +54,7 @@ if (!empty($errors)) {
          VALUES (NULL, '$fullname', '$email', '$phone', '$dob', '$sector', '$org', '$position', '$size', '$url', '$qualify', '$achievement', '$capacity', '$specify', '$self');";
         // use exec() because no results are returned
         $conn->exec($sql);
-        //echo "New record created successfully";
+         buildhtml($dataForm);
     } catch (PDOException $e) {
         echo $sql . "<br>" . $e->getMessage();
     }

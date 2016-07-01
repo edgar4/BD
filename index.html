@@ -66,8 +66,9 @@
                             <fieldset>
 
                                 <div class="first">
+
                                     <h2 class="one">Are you nominating your Self?</h2>
-                                    <input type="hidden" name="self"/>
+                                    <input type="hidden" name="self" value="Yes"/>
                                     <a href="#be-the-first" class="btn orange btn-default btn-lg scroll"
                                        onclick="isSelf('yes')">Yes</a>&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="#be-the-first" class="btn btn-default btn-lg scroll"
@@ -123,8 +124,8 @@
                                         <input name="url" type="text" class="form-control" required>
                                     </div>
 
-                                    <button type="button" class="btn btn-previous">Previous</button>
-                                    <button type="button" class="btn btn-next orange">Next</button>
+                                    <button type="button" class="btn btn-previous  pull-left">Previous</button>
+                                    <button type="button" class="btn btn-next orange  pull-right">Next</button>
                                 </div>
                             </fieldset>
 
@@ -145,17 +146,17 @@
                                         <label>Is the nominee engaged in any significant community activities in his
                                             personal capacity?</label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="capacity" checked>yes
+                                            <input type="radio" name="capacity" value="yes" checked>yes
                                         </label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="capacity">no
+                                            <input type="radio" name="capacity" value="no">no
                                         </label><br/>
 
                                         <label>specify</label><br/>
                                         <textarea name="specify"></textarea>
                                     </div>
-                                    <button type="button" class="btn btn-previous">Previous</button>
-                                    <button type="submit" class="btn"> Submit</button>
+                                    <button type="button" class="btn btn-previous pull-left">Previous</button>
+                                    <button type="submit" class="btn  pull-right"> Submit</button>
                                 </div>
                             </fieldset>
 
