@@ -6,13 +6,13 @@ $data = array();        // array to pass back data
 // validate the variables ======================================================
 // if any of these variables don't exist, add an error to our $errors array
 
-$data = (object)$_REQUEST;
+$dataForm = (object)$_REQUEST;
 
 
-if (empty($data->fullname))
+if (empty($dataForm->fullname))
     $errors['fullname'] = 'Name is required.';
 
-if (empty($data->email))
+if (empty($dataForm->email))
     $errors['email'] = 'Email is required.';
 
 
@@ -36,22 +36,22 @@ if (!empty($errors)) {
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 
-        $fullname =strip_tags($data->fullname);
-        $email =strip_tags($data->email);
-        $phone =strip_tags($data->telephone);
-        $dob =strip_tags($data->dob);
+        $fullname =strip_tags($dataForm->fullname);
+        $email =strip_tags($dataForm->email);
+        $phone =strip_tags($dataForm->telephone);
+        $dob =strip_tags($dataForm->dob);
 
-        $sector =strip_tags($data->sector);
-        $org = trip_tags($data->org);
-        $position =strip_tags($data->position);
-        $size =strip_tags($data->size);
-        $url =strip_tags($data->url);
+        $sector =strip_tags($dataForm->sector);
+        $org = strip_tags($dataForm->org);
+        $position =strip_tags($dataForm->position);
+        $size =strip_tags($dataForm->size);
+        $url =strip_tags($dataForm->url);
 
-        $qualify =strip_tags($data->qualify);
-        $achievement =strip_tags($data->achievement);
-        $capacity =strip_tags($data->capacity);
-        $specify =strip_tags($data->specify);
-        $self =strip_tags($data->self);
+        $qualify =strip_tags($dataForm->qualify);
+        $achievement =strip_tags($dataForm->achievement);
+        $capacity =strip_tags($dataForm->capacity);
+        $specify =strip_tags($dataForm->specify);
+        $self =strip_tags($dataForm->self);
         // set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $sql = "INSERT INTO `BD_db`.`nominees` (`id`, `fullanme`, `email`, `phone`, `dob`, `sector`, `org`, `position`, `size`, `url`, `qualify`, `achievement`, `capacity`, `specify`, `isSelf`)
