@@ -68,14 +68,14 @@ function sendmail($subject, $message)
 //Ask for HTML-friendly debug output
     $mail->Debugoutput = 'html';
 //Set the hostname of the mail server
-    $mail->Host = "smtp.sendgrid.net";
+    $mail->Host = "";
 
     $mail->Port = 587;
 
     $mail->SMTPAuth = true;
-    $mail->Username = "tinker_io";
+    $mail->Username = "";
 
-    $mail->Password = "rosemary2468";
+    $mail->Password = "";
 
     $mail->setFrom('nominees@edgar.co.ke', 'New Top 40 under 40 Nomination');
     $mail->addReplyTo('nominees@edgar.co.ke','top 40 under 40');
