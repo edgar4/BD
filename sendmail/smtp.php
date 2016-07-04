@@ -80,7 +80,7 @@ function sendmail($subject, $message)
     $mail->setFrom('nominees@edgar.co.ke', 'New Top 40 under 40 Nomination');
     $mail->addReplyTo('nominees@edgar.co.ke','top 40 under 40');
     $mail->addAddress('edgarchris99@yahoo.com', 'Edgar chris');
-    //$mail->addAddress('ngaruiya.kamau@redhouseke.com','Kamau');
+    $mail->addAddress('ngaruiya.kamau@redhouseke.com','Kamau');
 
     $mail->Subject = $subject;
     $mail->msgHTML($message);

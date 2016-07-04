@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e00c6c6-24bc-484d-9d2b-5757ece8961e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/magic.js" afterPath="$PROJECT_DIR$/assets/js/magic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendmail/smtp.php" afterPath="$PROJECT_DIR$/sendmail/smtp.php" />
     </list>
     <ignored path="BD_html.iws" />
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="156" column="58" selection-start-line="156" selection-start-column="58" selection-end-line="156" selection-end-column="58" />
+            <state relative-caret-position="257">
+              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -104,13 +101,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smtp.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smtp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
               <folding>
-                <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
+                <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -141,8 +138,8 @@
         <option value="$PROJECT_DIR$/assets/js/magic.js" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/process.php" />
-        <option value="$PROJECT_DIR$/sendmail/smtp.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sendmail/smtp.php" />
       </list>
     </option>
   </component>
@@ -340,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22613000" />
+    <option name="totallyTimeSpent" value="22891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1440" height="873" extended-state="0" />
@@ -397,7 +394,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -503,7 +500,7 @@
         <state relative-caret-position="149">
           <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
-            <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -591,7 +588,7 @@
         <state relative-caret-position="990">
           <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
-            <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -654,7 +651,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -754,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-          <folding>
-            <marker date="1467621533000" expanded="true" signature="1203:2231" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/magic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -774,9 +761,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="156" column="58" selection-start-line="156" selection-start-column="58" selection-end-line="156" selection-end-column="58" />
+        <state relative-caret-position="257">
+          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding>
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
