@@ -67,10 +67,10 @@ ul.list-inline li a {
 }
 
 @media screen
-and (max-width: 480px) {
+and (max-width: 600px) {
     .navbar-header {
         width: 120px;
-        margin-left: 65.3333% !important;
+        margin-left: 60.3333% !important;
         position: fixed;
         top: 100px;
     }
