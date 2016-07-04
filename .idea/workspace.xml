@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9e00c6c6-24bc-484d-9d2b-5757ece8961e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendmail/smtp.php" afterPath="$PROJECT_DIR$/sendmail/smtp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/overwrite.css" afterPath="$PROJECT_DIR$/assets/css/overwrite.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
     </list>
     <ignored path="BD_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -60,12 +61,9 @@
       <file leaf-file-name="overwrite.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/overwrite.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding>
-                <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-                <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +71,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smtp.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smtp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+            <state relative-caret-position="132">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
               </folding>
@@ -134,12 +132,12 @@
         <option value="$PROJECT_DIR$/assets/css/form-elements.css" />
         <option value="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/assets/css/overwrite.css" />
         <option value="$PROJECT_DIR$/assets/js/magic.js" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/process.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sendmail/smtp.php" />
+        <option value="$PROJECT_DIR$/assets/css/overwrite.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -337,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22891000" />
+    <option name="totallyTimeSpent" value="23332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1440" height="873" extended-state="0" />
@@ -374,10 +372,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-            <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -472,10 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-            <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -553,10 +545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-            <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,10 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-            <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,25 +708,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/overwrite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <marker date="1467621320000" expanded="true" signature="1072:1079" placeholder="{...}" />
-            <marker date="1467621320000" expanded="true" signature="1072:1082" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -759,21 +726,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        <state relative-caret-position="132">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/overwrite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendmail/smtp.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <marker date="1467622116000" expanded="true" signature="1203:2231" placeholder="..." />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
