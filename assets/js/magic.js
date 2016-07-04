@@ -3,6 +3,10 @@ $(document).ready(function () {
 
     $('.thank').hide();
 
+    $('#submitted').click(function(){
+        $('#submitted').text('PLease wait')
+    });
+
     // process the form
     $('form').submit(function (event) {
 
